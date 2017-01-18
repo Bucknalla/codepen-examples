@@ -4,6 +4,7 @@ var gravity;
 function setup() {
     createCanvas(windowWidth, windowHeight);
     colorMode(RGB, 255);
+	bg = loadImage("assets/london.png");
     gravity = createVector(0, 0.25);
     stroke(0, 0, 0, 255);
     strokeWeight(4);
